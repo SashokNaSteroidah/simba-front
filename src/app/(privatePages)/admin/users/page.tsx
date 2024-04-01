@@ -1,15 +1,11 @@
 "use client"
 
 import React, {useEffect, useState} from 'react';
-import {IPosts} from "../../../../../page/posts/types/posts.interfaces";
-import CreatePostLayout from "../../../../../page/posts/createPost/createPostLayout";
-import {fetchData} from "../../../../../page/utils/fetchData";
-import {PostPaths, UsersPaths} from "../../../../../page/utils/constPaths";
-import PostTables from "../../../../../page/posts/postTable/postTables";
-import PostsStats from "../../../../../page/posts/postsStats/postsStats";
-import {IUsers} from "../../../../../page/users/types/users.interfaces";
-import UserStats from "../../../../../page/users/usersStats/userStats";
-import UsersTable from "../../../../../page/users/usersTable/usersTable";
+import {IUsers} from "@/usage/pages/users/types/users.interfaces";
+import {fetchData} from "@/usage/utils/fetchData";
+import {UsersPaths} from "@/usage/utils/constPaths";
+import UserStats from "@/usage/pages/users/usersStats/userStats";
+import UsersTable from "@/usage/pages/users/usersTable/usersTable";
 
 
 const CreatePost = async () => {

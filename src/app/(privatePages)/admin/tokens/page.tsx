@@ -1,11 +1,11 @@
 "use client"
 
 import React, {useEffect, useState} from 'react';
-import {fetchData} from "../../../../../page/utils/fetchData";
-import {AuthPaths} from "../../../../../page/utils/constPaths";
-import {ITokens} from "../../../../../page/tokens/types/tokens.interfaces";
-import TokensStats from "../../../../../page/tokens/tokensStats/tokensStats";
-import TokensTable from "../../../../../page/tokens/tokensTable/tokensTable";
+import {ITokens} from "@/usage/pages/tokens/types/tokens.interfaces";
+import {fetchData} from "@/usage/utils/fetchData";
+import {AuthPaths} from "@/usage/utils/constPaths";
+import TokensTable from "@/usage/pages/tokens/tokensTable/tokensTable";
+import TokensStats from "@/usage/pages/tokens/tokensStats/tokensStats";
 
 
 const TokensPage = async () => {

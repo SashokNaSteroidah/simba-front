@@ -1,8 +1,8 @@
 "use client"
 
-import React, {useEffect} from 'react';
+import React from 'react';
 import {Spin} from 'antd';
-import {CheckJWTWithRedirect} from "../../../page/hooks/checkJWT";
+import {CheckJWTWithRedirect} from "@/usage/hooks/checkJWT";
 
 interface PrivatePagesLayout {
     children: React.ReactNode

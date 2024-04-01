@@ -3,8 +3,8 @@ import React, {useState} from 'react';
 import {Content} from "antd/es/layout/layout";
 import {Layout, Menu, theme} from "antd";
 import Link from 'next/link';
-import {PAGE_ITEMS} from "../../../../page/consts/adminLayout.consts";
 import Sider from "antd/es/layout/Sider";
+import {PAGE_ITEMS} from "@/usage/consts/adminLayout.consts";
 
 interface AdminLayout {
     children: React.ReactNode
