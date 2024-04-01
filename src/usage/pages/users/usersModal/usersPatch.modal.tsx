@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {message, Modal, Select} from "antd";
-import {UsersPaths} from "../../utils/constPaths";
-import {patchData} from "../../utils/patchData";
+import {UsersPaths} from "@/usage/utils/constPaths";
+import {patchData} from "@/usage/utils/patchData";
 import {IUser} from "../types/users.interfaces";
 import {USERS_ROLE} from "../consts/users.consts";
 import {CloseSquareFilled} from "@ant-design/icons";

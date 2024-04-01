@@ -1,4 +1,3 @@
-import {initStateLogin} from "../../login/types/login.interface";
 import {initStateCreatePosts} from "../types/posts.interfaces";
 
 export const INIT_STATE_POSTS: initStateCreatePosts = {

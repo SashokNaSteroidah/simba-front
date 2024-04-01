@@ -2,9 +2,9 @@ import React, {useState} from 'react';
 import {Input, message, Modal} from "antd";
 import {INIT_STATE_NAMES_POSTS, INIT_STATE_POSTS} from "../consts/posts.consts";
 import {initStateCreatePosts} from "../types/posts.interfaces";
-import {postData} from "../../utils/postData";
-import {PostPaths} from "../../utils/constPaths";
 import TextArea from 'antd/es/input/TextArea';
+import {postData} from "@/usage/utils/postData";
+import {PostPaths} from "@/usage/utils/constPaths";
 
 
 interface PostsCreateModalProps {

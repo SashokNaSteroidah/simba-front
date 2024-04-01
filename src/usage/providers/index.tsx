@@ -26,7 +26,7 @@ const Providers = ({children}: ProvidersProps) => {
                     {
                         isAdmin && (
                             <Menu.Item icon={<UserOutlined/>}>
-                                <Link href="/admin">Админ</Link>
+                                <Link href="/admin/posts">Админ</Link>
                             </Menu.Item>
                         )
                     }

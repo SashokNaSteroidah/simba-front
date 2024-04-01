@@ -9,3 +9,7 @@ export interface initStateLogin {
     login: string,
     password: string,
 }
+
+export interface loginRefresh {
+    refreshToken: string
+}

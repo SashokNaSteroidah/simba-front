@@ -3,10 +3,10 @@ import {Button, Modal, Table} from "antd";
 import {IPost, IPosts} from "../types/posts.interfaces";
 import PostsPatchModal from "../modal/postsPatch.modal";
 import {DeleteOutlined, EditOutlined, ExclamationCircleFilled} from '@ant-design/icons';
-import {deleteData} from "../../utils/deleteData";
-import {PostPaths} from "../../utils/constPaths";
 import dayjs from "dayjs";
 import "dayjs/locale/ru"
+import {deleteData} from "@/usage/utils/deleteData";
+import {PostPaths} from "@/usage/utils/constPaths";
 dayjs.locale('ru');
 
 interface PostTablesProps {
